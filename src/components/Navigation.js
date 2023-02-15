@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Navigation() {
 
   return (
-    <Navbar expand='md' variant='dark' bg='dark' className='p-3'>
+    <Navbar expand='md' variant='dark' bg='black' className='p-3'>
         <Navbar.Brand href='/'>Bible Tool</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className='justify-content-end'>
