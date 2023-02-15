@@ -6,6 +6,7 @@ import Affiliations from './components/Affiliations/Affiliations'
 import BibleSearch from './components/BibleSearch/BibleSearch'
 import DiscoveryMethod from './components/Discovery/DiscoveryMethod'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import NotFound from './components/NotFound'
 
 export default function App() {
   return(
@@ -17,6 +18,7 @@ export default function App() {
           <Route path='/affiliations' element={<Affiliations />} />
           <Route path='/bibleSearch' element={<BibleSearch />} />
           <Route path='/discoveryMethod' element={<DiscoveryMethod />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
     </div>
