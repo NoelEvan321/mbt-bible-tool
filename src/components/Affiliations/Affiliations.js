@@ -7,6 +7,9 @@ export default function Affiliations() {
   return (
     <>
         <section className="bg-dark py-5">
+          <article className="p-4">
+                <h1 className='text-center'>Relevant Affilitations</h1>
+          </article>
           <div className="par-block col-md-8 offset-md-2 my-3 p-3 text-center text-light">
             <p>
                 We believe all Scripture was given by inspiration of God (2 Timothy 3:16)

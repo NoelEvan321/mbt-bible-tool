@@ -1,36 +1,57 @@
 import React from 'react'
-import {Container} from 'react-bootstrap'
+import CHAPTERCard from './CHAPTERCard'
+import VERSECard from './VERSECard'
+import WORDCard from './WORDCard'
 
 export default function DiscoveryMethod() {
   return (
     <>
-    <div>Discovery Bible Method</div>
-    <div>Materials for Discovery</div>
-    <ul>
-      <li>King James Version Bible</li>
-    </ul>
-    <div>Steps for Discovery</div>
-    <ol>
-      <li>Context</li>
-      <li>Rule of Most Mention</li>
-      <li>Word Study</li>
-      <li>Verse Study</li>
-      <li>Chapter Study</li>
-    </ol>
-    <Container>
-      <div>
-        <div>Word Study</div>
-        <p>A word study is... link to another page goes here</p>
-      </div>
-      <div>
-        <div>Verse Study</div>
-        <p>A vers study is... link to another page goes here</p>
-      </div>
-      <div>
-        <div>Chapter Study</div>
-        <p>A chapter study is... link to another page goes here</p>
-      </div>
-    </Container>
+      <section className="bg-dark text-light text-center">
+        <article className="p-4">
+              <h1 className='text-center'>Discovery Bible Method</h1>
+        </article>
+        <div className="row">
+          <div className='col-md-8 offset-md-2 p-3 my-3 par-block'>
+            <p>
+              This is where we discuss what the DBM is 
+            </p>
+          </div>
+        </div>
+        <article className="p-4">
+              <h2 className='text-center'>Materials for Discovery</h2>
+        </article>
+        <div className='col-md-8 offset-md-2 p-3 my-3'>
+          <div className='row offset-md-1'>
+            <div className='col-md-2 par-block m-1'>KJV Bible</div>
+          </div>
+        </div>
+        <article className="p-4">
+              <h2 className='text-center'>Steps for Discovery</h2>
+        </article>
+        <div className='col-md-8 offset-md-2 p-3 my-3'>
+          <div className='row offset-md-1'>
+            <div className='col-md-2 par-block m-1'>Context</div>
+            <div className='col-md-2 par-block m-1'>Rule of Most Mention</div>
+            <div className='col-md-2 par-block m-1'>Word Study</div>
+            <div className='col-md-2 par-block m-1'>Verse Study</div>
+            <div className='col-md-2 par-block m-1'>Chapter Study</div>
+          </div>
+        </div>
+        <article className="p-4">
+              <h2 className='text-center'>How We Study</h2>
+        </article>
+        <div className="row">
+          <div className="col-md-4 my-3 p-3 text-dark">
+            <WORDCard />
+          </div>
+          <div className="col-md-4 my-3 p-3 text-dark">
+            <VERSECard />
+          </div>
+          <div className="col-md-4 my-3 p-3 text-dark">
+            <CHAPTERCard />
+          </div>
+        </div>
+      </section>
     </>
   )
 }
