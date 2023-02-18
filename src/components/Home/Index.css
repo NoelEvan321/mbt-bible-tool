@@ -1,5 +1,13 @@
 .par-block {
-    background-color: RGBA(240, 173, 78,.9);
+    background-color: RGBA(240, 173, 78,.75);
     border-color: RGB(240, 173, 78);
     border-radius: 10px;
+}
+article h1 {
+    background-image: radial-gradient(circle at 50% 50%, rgba(240, 173, 78), transparent);
+}
+h2.text-center {
+    border: 10px;
+    border-color: RGB(240, 173, 78) !important;
+    border-radius: 10px !important;
 }

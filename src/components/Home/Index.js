@@ -5,7 +5,7 @@ export default function Index() {
   return (
       <section className='bg-dark text-light'>
         <article className="p-4">
-                <h1 className='text-center'>Welcome to the Living Faith Bible Tool</h1>
+                <h1 className='text-center py-4'>Welcome to the Living Faith Bible Tool</h1>
           </article>
         <div className='row'>
           <div className='text-center col-md-8 offset-md-2 par-block my-5 p-3'>

@@ -8,7 +8,7 @@ export default function Affiliations() {
     <>
         <section className="bg-dark py-5">
           <article className="p-4">
-                <h1 className='text-center'>Relevant Affilitations</h1>
+                <h1 className='text-center text-light py-4'>Relevant Affilitations</h1>
           </article>
           <div className="par-block col-md-8 offset-md-2 my-3 p-3 text-center text-light">
             <p>

@@ -8,7 +8,7 @@ export default function DiscoveryMethod() {
     <>
       <section className="bg-dark text-light text-center">
         <article className="p-4">
-              <h1 className='text-center'>Discovery Bible Method</h1>
+              <h1 className='text-center py-4'>Discovery Bible Method</h1>
         </article>
         <div className="row">
           <div className='col-md-8 offset-md-2 p-3 my-3 par-block'>
@@ -18,7 +18,7 @@ export default function DiscoveryMethod() {
           </div>
         </div>
         <article className="p-4">
-              <h2 className='text-center'>Materials for Discovery</h2>
+              <h2 className='text-center sub-sect'>Materials for Discovery</h2>
         </article>
         <div className='col-md-8 offset-md-2 p-3 my-3'>
           <div className='row offset-md-1'>
@@ -26,7 +26,7 @@ export default function DiscoveryMethod() {
           </div>
         </div>
         <article className="p-4">
-              <h2 className='text-center'>Steps for Discovery</h2>
+              <h2 className='text-center sub-sect'>Steps for Discovery</h2>
         </article>
         <div className='col-md-8 offset-md-2 p-3 my-3'>
           <div className='row offset-md-1'>
