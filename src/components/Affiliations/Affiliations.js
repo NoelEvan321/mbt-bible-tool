@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from '../../imgs/alter-worship.jpg'
 import MBTCard from '../Affiliations/MBTCard'
 import LFBICard from '../Affiliations/LFBICard'
 import LFFCard from '../Affiliations/LFFCard'
@@ -10,6 +11,9 @@ export default function Affiliations() {
           <article className="p-4">
                 <h1 className='text-center text-light py-4'>Relevant Affilitations</h1>
           </article>
+          <section className='text-center bg-dark py-3'>
+            <img src={Img} alt='person reading the Bible' className='vph-max'/>
+          </section>
           <div className="par-block col-md-8 offset-md-2 my-3 p-3 text-center text-light">
             <p>
                 We believe all Scripture was given by inspiration of God (2 Timothy 3:16)

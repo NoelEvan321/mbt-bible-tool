@@ -11,3 +11,7 @@ h2.text-center {
     border-color: RGB(240, 173, 78) !important;
     border-radius: 10px !important;
 }
+.vph-max {
+    max-height: 25vh;
+    width: 50%;
+}

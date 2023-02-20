@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import Img from '../../imgs/reading-bible.jpg'
 // import axios from 'axios'
 
 export default function BibleSearch() {
@@ -22,6 +23,9 @@ export default function BibleSearch() {
         <article className="p-4">
               <h1 className='text-center py-4'>Blue Letter PlugIn</h1>
         </article>
+        <section className='text-center bg-dark py-3'>
+          <img src={Img} alt='person reading the Bible' className='vph-max'/>
+        </section>
         <div className="row">
           <div className='col-md-8 offset-md-2 p-3 my-3 par-block'>
             <p>
