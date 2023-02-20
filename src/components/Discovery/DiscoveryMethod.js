@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from '../../imgs/john-work.jpg'
 import CHAPTERCard from './CHAPTERCard'
 import VERSECard from './VERSECard'
 import WORDCard from './WORDCard'
@@ -10,6 +11,9 @@ export default function DiscoveryMethod() {
         <article className="p-4">
               <h1 className='text-center py-4'>Discovery Bible Method</h1>
         </article>
+        <section className='text-center bg-dark py-3'>
+          <img src={Img} alt='person reading the Bible' className='vph-max'/>
+        </section>
         <div className="row">
           <div className='col-md-8 offset-md-2 p-3 my-3 par-block'>
             <p>
