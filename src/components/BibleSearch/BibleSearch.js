@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Container } from 'react-bootstrap'
 import Img from '../../imgs/reading-bible.jpg'
 // import axios from 'axios'
@@ -17,17 +17,23 @@ export default function BibleSearch() {
   // useEffect(() => {
   //   getBlb()
   // }, []);
+    // const [results, setResults] = useState();
+    // useEffect(() => {
+    //   fetch('https://www.blueletterbible.org/search/search.cfm?Criteria=principalities&t=KJV#s=s_primary_0_1')
+    //   .then((response) => response.json())
+    //   .then((data) => {
+    //      console.log(data);
+    //      setResults(data);
+    //   })}, []);
   return (
       <>
       <section className="bg-dark text-light text-center">
         <article className="p-4">
-              <h1 className='text-center py-4'>Blue Letter PlugIn</h1>
-        </article>
-        <section className='text-center bg-dark py-3'>
+          <h1 className='text-center pb-4'>Blue Letter PlugIn</h1>
           <img src={Img} alt='person reading the Bible' className='vph-max'/>
-        </section>
+        </article>
         <div className="row">
-          <div className='col-md-8 offset-md-2 p-3 my-3 par-block'>
+          <div className='col-md-8 offset-md-2 p-3 mb-3 par-block'>
             <p>
               Here we bring in the Blue Letter Bible tools for searching words and phrases. Phase two will focus
               on recreating this functionality.

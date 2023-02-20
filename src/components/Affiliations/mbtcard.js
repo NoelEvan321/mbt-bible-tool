@@ -13,7 +13,7 @@ export default function MBTCard() {
     //     <a classname='btn btn-primary' href='mbtkc.org' target='_blank'>Visit MBT</a>
     // </>
     <Card border='warning' className='text-center'>
-      <Card.Img variant='top' src={Img} />
+      <Card.Img variant='top' src={Img} className='card-img' />
       <Card.Body>
         <Card.Title>Midtown Baptist Temple</Card.Title>
         <Card.Text>

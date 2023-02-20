@@ -13,7 +13,7 @@ export default function LFBICard() {
     //     <a classname='btn btn-primary' href='mbtkc.org' target='_blank'>Visit LFF</a>
     // </>
     <Card border='warning' className='text-center'>
-      <Card.Img variant='top' src={Img} />
+      <Card.Img variant='top' src={Img} className='card-img' />
       <Card.Body>
         <Card.Title>Living Faith Bible Institute</Card.Title>
         <Card.Text>LFBI is for members of the Living Faith Fellowship and designed to further educate disciples of Jesus Christ.

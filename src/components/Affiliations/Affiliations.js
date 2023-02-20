@@ -7,14 +7,12 @@ import LFFCard from '../Affiliations/LFFCard'
 export default function Affiliations() {
   return (
     <>
-        <section className="bg-dark py-5">
+        <section className="bg-dark">
           <article className="p-4">
-                <h1 className='text-center text-light py-4'>Relevant Affilitations</h1>
+                <h1 className='text-center text-light pb-4'>Relevant Affilitations</h1>
+                <img src={Img} alt='person reading the Bible' className='vph-max'/>
           </article>
-          <section className='text-center bg-dark py-3'>
-            <img src={Img} alt='person reading the Bible' className='vph-max'/>
-          </section>
-          <div className="par-block col-md-8 offset-md-2 my-3 p-3 text-center text-light">
+          <div className="par-block col-md-8 offset-md-2 mb-3 p-3 text-center text-light">
             <p>
                 We believe all Scripture was given by inspiration of God (2 Timothy 3:16)
                 and God has promised to preserve every jot and tittle of what He inspired. (Matthew 5:18)

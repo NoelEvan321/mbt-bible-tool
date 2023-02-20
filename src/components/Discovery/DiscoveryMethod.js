@@ -9,13 +9,11 @@ export default function DiscoveryMethod() {
     <>
       <section className="bg-dark text-light text-center">
         <article className="p-4">
-              <h1 className='text-center py-4'>Discovery Bible Method</h1>
+              <h1 className='text-center pb-4'>Discovery Bible Method</h1>
+              <img src={Img} alt='person reading the Bible' className='vph-max'/>
         </article>
-        <section className='text-center bg-dark py-3'>
-          <img src={Img} alt='person reading the Bible' className='vph-max'/>
-        </section>
         <div className="row">
-          <div className='col-md-8 offset-md-2 p-3 my-3 par-block'>
+          <div className='col-md-8 offset-md-2 p-3 mb-3 par-block'>
             <p>
               This is where we discuss what the DBM is 
             </p>
