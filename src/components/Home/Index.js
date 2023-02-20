@@ -5,12 +5,12 @@ import Img from '../../imgs/grow-descipleship.jpg'
 export default function Index() {
   return (
       <section className='bg-dark text-light'>
-        <article className="p-4">
+        <article className="p-4" style={{backgroundImage: `url(${Img})`}}>
           <h1 className='text-center py-4'>Welcome to the Living Faith Bible Tool</h1>
           <img src={Img} alt='person reading the Bible' className='vph-max'/>
         </article>         
         <div className='row'>
-          <div className='text-center col-md-8 offset-md-2 par-block mb-5 p-3'>
+          <div className='text-center col-md-8 offset-md-2 par-block my-3 p-3'>
             <p>
               The purpose of this app is to bring the Word of God to the world. We believe that every word in the Bible was 
                 was perfectly placed by a perfect God. As such, we should not use our lives to understand the Word, but rather
